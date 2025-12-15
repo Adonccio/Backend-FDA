@@ -5,7 +5,7 @@ from datetime import datetime
 
 fake = Faker("pt_BR")
 
-API_URL = "http://localhost:8000/ingestion" 
+API_URL = "https://backend-fda-production.up.railway.app/ingestion"
 
 TIPOS_COMBUSTIVEL = ["Gasolina", "Etanol", "Diesel S10"]
 TIPOS_VEICULO = ["Carro", "Moto", "Caminhão Leve", "Carreta", "Ônibus"]
